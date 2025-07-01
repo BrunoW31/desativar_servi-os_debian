@@ -1,3 +1,4 @@
+sudo systemctl mask dev-tpmrm0.device;
 sudo systemctl disable cups;
 sudo systemctl disable tor;
 sudo systemctl disable bluetooth;
