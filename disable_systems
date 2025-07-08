@@ -1,6 +1,9 @@
-sudo systemctl mask dev-tpmrm0.device;
-sudo systemctl disable cups;
-sudo systemctl disable tor;
-sudo systemctl disable bluetooth;
-sudo systemctl disable openvpn;
-sudo systemctl disable libvirtd;
+systemctl mask dev-tpmrm0.device;
+systemctl disable cups;
+systemctl disable tor;
+systemctl disable bluetooth;
+systemctl disable openvpn;
+systemctl disable libvirtd;
+systemctl disable mariadb;
+systemctl disable apache2;
+systemctl disable docker;
